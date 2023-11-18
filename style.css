@@ -1,0 +1,496 @@
+
+*{
+    margin:0;
+    padding: 0;
+    
+}
+body{
+    background-color:rgb(74, 10, 139);
+    color:white;
+    font-family: 'Poppins' , sans-serif;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 30px;
+    background-color:rgb(94, 16, 173) ;
+    height: 90px;
+}
+.left1{
+    font-size: 1.5em;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    text-decoration: none;
+    color: rgb(221, 0, 255);
+}
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+}
+.firstSection >div{
+    width: 30%;
+}
+.description{
+    font-size: 15px;
+    color: rgb(221, 0, 255);
+    margin-top: 20px;
+}
+.info h3{
+    font-size: 12px;
+    color: white;
+    margin-top: 60px;
+}
+.email{
+    color:rgb(255, 0, 170);
+    font-size: 13px;
+    margin-top: 2px;
+}
+/* Style for social icons */
+.social-icons {
+    display: flex; /* To create a horizontal layout */
+    gap: 40px; /* Adjust the space between icons */
+    margin-top: 20px;
+  }
+  
+  .social-icons i.bxl-linkedin {
+    font-size: 30px; /* Adjust the icon size */
+    color: #0077B5; /* Change the color of the LinkedIn icon */
+    /* You can add similar styles for other icons */
+  }
+  
+  .social-icons i.bxl-gmail {
+    color: #D14836; /* Change the color of the Gmail icon */
+  }
+  
+  .social-icons i.bxl-github {
+    color:black; /* Change the color of the GitHub icon */
+  }
+  
+
+ a.btn{
+   
+    color:whitesmoke;
+    font-weight: bold;
+    text-decoration: none;
+    align-items: left;
+    width:150px;
+    height: 100%;
+    letter-spacing: 1px;
+    font-size:1rem;
+   
+}
+
+/* Style for the button */
+.btn-box {
+
+    margin-top: 20px;
+    display: inline-block;
+    padding: 5px 7px; /* Adjust the padding to control button size */
+    border: 2px solid rgb(94, 16, 173); /* Add a 2px solid border with the desired color */
+    text-decoration: none;
+    color: rgb(94, 16, 173); /* Set the text color */
+    border-radius: 5px; /* Add rounded corners to the button */
+    margin-bottom: 10px;
+  }
+  
+  .btn-box:hover {
+    background-color: rgb(151, 69, 233); /* Change background color on hover */
+    color: #fff; /* Change text color on hover */
+  }
+  
+
+.leftSection{
+    font-size: 2em;
+    margin-top: 60px;
+    margin-left: 15x;
+}
+.rightSection img{
+    width: 130%;
+    margin: 5px;
+}
+.name{
+    color: rgb(255, 0, 170);
+}
+#element{
+    color: rgb(255, 0, 170);
+}
+.about{
+    max-width: 80vw;
+    margin-left: 100px;
+    margin-top: 40px;
+    height:80vh;
+}
+main hr{
+    background: rgba(217, 6, 240, 0.141);
+    border: 0;
+    height: 2px;
+    margin: 40px;
+}
+.text-gray{
+    color: rgb(118, 8, 228) ;
+    
+}
+
+.about {
+    display: flex; /* Use flexbox to create a two-column layout */
+    align-items: center; /* Vertically align the content in the middle */
+  }
+  
+  .left {
+    flex: 1;
+     /* Allow the left side to take up 1/2 of the available space */
+  }
+  
+  .right {
+    flex: 1; /* Allow the right side to take up 1/2 of the available space */
+    padding: 20px; /* Add padding to the right side for spacing */
+  }
+  
+  /* Add additional styling as needed */
+.left img{
+    height: auto;
+    max-width: 80%;
+}  
+.right h2{
+    margin-top:40px;
+    margin-bottom: 20px;
+}
+.item{
+    margin-top: 10px;
+    font-size: 12px;
+    margin-bottom: 10px;
+    color: rgb(221, 0, 255);
+}
+.headd{
+    margin-bottom: 10px;
+}
+
+.main-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 80px;
+}
+
+.skill-main{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 80px;
+   
+}
+
+.skill-left{
+    margin-left: 150px;
+}
+.skill-left h3{
+    margin-left: -170px;
+}
+
+
+
+.skill-bar {
+    margin-bottom: 1.5rem;
+  }
+  
+  .skill-main h3 {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .skill-left .skill-bar .infor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+  .skill-left .skill-bar .infor p {
+    margin-right: 220px; /* Adjust the margin as needed */
+  }
+
+ 
+  .skill-left .skill-bar .bar {
+    width: 60%;
+    height: 5px;
+    background-color: #fff;
+    border-radius: 25px;
+    margin-top: 10px;
+    position: relative;
+  }
+  
+  .skill-left .skill-bar .bar span {
+    /* width: 50%; */
+    height: 100%;
+    position: absolute;
+    left: 0;
+    background-color:#B24BF3;
+    border-radius: 25px;
+  }
+  
+
+  .main-text span{
+      color: #B24BF3;
+      margin-bottom: 20px;
+  }
+.skill-bar .bar .html{
+    width: 72%;
+    animation: html 2s;
+}
+.skill-bar .bar .css{
+    width: 62%;
+    animation: css 3s;
+}
+.skill-bar .bar .js{
+    width: 52%;
+    animation: js 4s;
+}
+.skill-bar .bar .java{
+    width: 42%;
+    animation: java 5s;
+}
+.skill-bar .bar .reactjs{
+    width: 32%;
+    animation: reactjs 6s;
+}
+.skill-bar .bar .c-sharp{
+    width: 22%;
+    animation: c-sharp 7s;
+}
+
+/* keyframes */
+
+@keyframes morph{
+    0%,
+    100%{
+        border-radius: 40% 60% 70% 30% / 40% 40% 60% 50%;
+    }
+    30%{
+        border-radius:70% 30% 50% 50% / 30% 30% 70% 70%;
+    }
+    60%{
+        border-radius:100% 60% 60% 100% / 100% 100% 60% 60%;
+    }
+    80%{
+        border-radius:69% 31% 66% 34% / 21% 30% 70% 79%;
+    }
+}
+
+@keyframes html{
+    0% {
+        width:0%;
+    }
+    100%{
+        width: 72%;
+    }
+}
+@keyframes css{
+    0% {
+        width:0%;
+    }
+    100%{
+        width: 62%;
+    }
+}
+@keyframes js{
+    0% {
+        width:0%;
+    }
+    100%{
+        width: 52%;
+    }
+}
+@keyframes java{
+    0% {
+        width:0%;
+    }
+    100%{
+        width: 42%;
+    }
+}
+@keyframes reactjs{
+    0% {
+        width:0%;
+    }
+    100%{
+        width: 32%;
+    }
+}
+@keyframes c-sharp{
+    0% {
+        width:0%;
+    }
+    100%{
+        width: 22%;
+    }
+}
+
+.professional{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    
+
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.progress-card{
+    display:inline-block;
+    text-align: center;
+}
+.progress-card h5{
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.progress-circle {
+    position: relative;
+    background: transparent;
+    border: #43026b 8px solid;
+    width: 8em;
+    height: 8em;
+    border-radius:100%;
+    overflow: hidden;
+    margin: 0.5em;
+}
+.progress{
+    width: 8em;
+    height: 8em;
+    position: absolute;
+    bottom: -100%;
+    background: linear-gradient(
+        0deg, #335bf4 0%, #16ff86 100%);
+    transition: bottom 2.5s;
+}
+.progress-content {
+    background: linear-gradient(0deg, #080808 0% , #B24BF3 100%);
+    width: 7.6em;
+    height: 7.6em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    z-index :1;
+}
+.progress-content h5{
+    font-size:2em;
+    font-weight: 500;
+}
+
+.contact{
+  
+    width: 100%;
+}
+.contact form{
+    text-align: center;
+    max-width: 50rem;
+    margin: 1rem auto;
+    margin-bottom: 3rem;
+}     
+.contact form input, .contact form textarea{
+    width: 100%;
+    color: var(--text-color);
+    background: #D7A1F9;
+    margin-bottom: .8rem;
+    border: none;
+    border-radius:5px;
+    padding: .7rem;
+}       
+.contact form textarea{
+    resize: none;
+}
+.formBtn{
+    display: flex;
+    justify-content:center;
+    width: 20%;
+    margin-top: 20px;
+    display: inline-block;
+ 
+    text-decoration: none;
+    color: rgb(94, 16, 173); /* Set the text color */
+    border-radius: 5px; /* Add rounded corners to the button */
+    margin-bottom: 10px;
+}
+
+.btn{
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+   
+     width:100%;
+    height: 120%;
+    letter-spacing: 1px;
+    font-size:1rem;
+    border: none;
+    background-color: rgb(74, 10, 139);
+}
+.btn:hover {
+    background-color: rgb(151, 69, 233); /* Change background color on hover */
+    color: #fff; /* Change text color on hover */
+  }
+.formBtn .btn{
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+::-webkit-scrollbar{
+    height: 0;
+    width: .7rem;
+}
+
+::-webkit-scrollbar-track{
+    background:#603F8B;
+}
+
+::-webkit-scrollbar-thumb{
+    background:#6C0BA9;
+    border-radius:.5rem;
+}
+footer{
+    padding: 1.3rem 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #603F8B;
+}
+footer p{
+    color: #fff;
+}
+footer a{
+    display: inline-flex;
+    justify-content: center;
+    
+    background: #A020F0;
+    padding: .6rem;
+     border-radius:5px;
+}
+footer a i{
+    font-size: 3 rem;
+    
+    color: white;
+    
+}
